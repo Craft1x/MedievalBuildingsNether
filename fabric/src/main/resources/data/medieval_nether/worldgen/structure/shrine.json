@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "medieval_nether:shrine_pool",
+  "size": 1,
+  "max_distance_from_center": 32,
+  "use_expansion_hack": false,
+  "biomes": "#medieval_nether:has_structure/shrine",
+  "spawn_overrides": {},
+  "step": "top_layer_modification",
+
+  "start_height": {
+    "absolute": 36
+  },
+
+  "terrain_adaptation": "beard_box"
+}

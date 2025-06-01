@@ -1,0 +1,24 @@
+[
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "structures": [
+        "medieval_nether:castle",
+        "medieval_nether:dome",
+        "medieval_nether:house",
+        "medieval_nether:ship",
+        "medieval_nether:shrine"
+      ]
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{PersistenceRequired:1b}"
+      }
+    }
+  }
+]

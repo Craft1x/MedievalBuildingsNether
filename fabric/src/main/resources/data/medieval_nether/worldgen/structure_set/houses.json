@@ -1,0 +1,34 @@
+{
+  "structures": [
+    {
+      "structure": "medieval_nether:shrine",
+      "weight": 230
+    },
+    {
+      "structure": "medieval_nether:house",
+      "weight": 160
+    },
+    {
+      "structure": "medieval_nether:dome",
+      "weight": 100
+    },
+    {
+      "structure": "medieval_nether:castle",
+      "weight": 25
+    },
+    {
+      "structure": "medieval_nether:ship",
+      "weight": 60
+    }
+  ],
+  "placement": {
+    "salt": 16892232,
+    "spacing": 42,
+    "separation": 6,
+    "type": "minecraft:random_spread",
+    "exclusion_zone": {
+      "other_set": "minecraft:nether_complexes",
+      "chunk_count": 8
+    }
+  }
+}
